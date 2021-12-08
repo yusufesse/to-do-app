@@ -1,0 +1,37 @@
+.form {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+.label {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+}
+.label-title {
+  font-size: 1.4rem;
+}
+.input {
+  font-family: inherit;
+  padding: 1rem;
+  border-radius: 8px;
+  border: none;
+  background-color: #e9fac8;
+}
+
+.btn--add {
+  padding: 1rem;
+  color: #e9fac8;
+  margin-left: auto;
+  background-color: #1e2b09;
+}
+
+.btn--add:hover {
+  background-color: #3b5612;
+  transform: scale(1.05);
+}
+.btn--delete:hover {
+  box-shadow: none;
+  background-color: #e9fac8;
+  transform: scale(1.05);
+}

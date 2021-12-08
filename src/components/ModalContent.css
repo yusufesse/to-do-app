@@ -1,0 +1,145 @@
+.modal-box,
+.img-box {
+  padding: 1rem;
+}
+
+.modal-box {
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+}
+
+.modal-text {
+  font-size: 1.4rem;
+  line-height: 1.7;
+}
+.social-links {
+  display: flex;
+  justify-content: space-evenly;
+}
+.logo-link {
+  text-align: center;
+}
+.modal-img {
+  width: 100%;
+  height: 100%;
+}
+
+/* /////////// */
+/* BREAKPOINTS */
+/* /////////// */
+
+/* Breakpoint: 1200px */
+@media (max-width: 75em) {
+  .modal-box,
+  .img-box {
+    padding: 0;
+  }
+  .modal-box {
+    gap: 1.2rem;
+  }
+  .modal-text {
+    font-size: 1.2rem;
+  }
+  .modal-img {
+    width: 60%;
+    height: auto;
+  }
+  .img-box {
+    display: flex;
+    justify-content: center;
+  }
+}
+/* Breakpoint: 1056px */
+@media (max-width: 66em) {
+  .modal-container {
+    gap: 0;
+  }
+  .modal-text {
+    font-size: 1.1rem;
+    line-height: 1.8;
+  }
+}
+/* Breakpoint: 816px */
+@media (max-width: 51em) {
+  .container {
+    max-width: 85%;
+  }
+  .heading {
+    font-size: 2.8rem;
+  }
+  .label-title,
+  .btn,
+  .input,
+  .content {
+    font-size: 1.2rem;
+  }
+  .modal-title,
+  .modal-container {
+    padding: 1rem;
+  }
+  .modal-title {
+    margin: 0;
+  }
+  .modal-container {
+    grid-template-columns: 1fr;
+    gap: 1.2rem;
+  }
+  .img-box {
+    background-color: #e9fac8;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+  }
+  .social-links,
+  .modal-img {
+    transform: scale(0.8);
+  }
+  .social-links {
+    justify-content: space-between;
+  }
+}
+/* Breakpoint: 656px */
+@media (max-width: 41em) {
+  .container {
+    max-width: 90%;
+  }
+  .todo-template {
+    gap: 2.5rem;
+  }
+  .card {
+    padding: 0.8rem;
+  }
+  .heading {
+    font-size: 2.4rem;
+    margin-bottom: 5rem;
+    transform: translateY(1.5rem);
+  }
+  .subtitle {
+    font-size: 1.2rem;
+  }
+  .form {
+    gap: 1rem;
+  }
+  .input {
+    max-width: 11rem;
+  }
+  .view-modal-container {
+    margin: 0.5rem;
+  }
+}
+/* Breakpoint: 480px */
+@media (max-width: 30rem) {
+  .img-box {
+    display: none;
+  }
+  .modal-title {
+    font-size: 2rem;
+  }
+  .modal-title,
+  .modal-container {
+    padding: 0.5rem;
+  }
+  .input {
+    max-width: 4.8rem;
+  }
+}

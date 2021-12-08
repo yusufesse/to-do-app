@@ -1,0 +1,26 @@
+.todo-container {
+  max-height: 40rem;
+  overflow-y: scroll;
+}
+.todo-template {
+  display: flex;
+  gap: 5rem;
+  align-items: center;
+  margin-bottom: 1.6rem;
+  overflow: hidden;
+}
+.todo-template:last-child {
+  margin: 0;
+}
+.content {
+  font-size: 1.4rem;
+  /* font-weight: 700; */
+  font-family: inherit;
+}
+.btn--delete {
+  padding: 0.6rem 1.2rem;
+  margin: 0 2rem 0 auto;
+  color: #1e2b09;
+  background: none;
+  box-shadow: inset 0 0 0 2px #1e2b09;
+}
