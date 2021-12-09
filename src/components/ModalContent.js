@@ -14,7 +14,7 @@ function ModalContent() {
         </p>
         <div className="social-links">
           <a
-            href="https://www.linkedin.com/in/yusuf-esse-473796161/
+            href="https://www.linkedin.com/in/yusuf-esse/
 "
             className="logo-link"
           >
