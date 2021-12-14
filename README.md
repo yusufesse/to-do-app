@@ -1,6 +1,6 @@
 # To Do List Web Application
 
-Created with React.js framework. Mobile-first approach to make web application responsive.
+Created with React.js framework. 
 
 ## Development Process
 
